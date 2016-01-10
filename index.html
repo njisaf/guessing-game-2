@@ -7,8 +7,9 @@
   <body>
     <h1>Hellow World</h1>
     <p>My name is Erin.</p>
+
     <script>
-      var userName = prompt("Hello, What's your name?");
+      var userName = prompt("Hello there! What's your name?");
       alert("Hello, " + userName + ", very nice to meet you! Let's play a game to break the ice.");
       console.log("This is the userName variable: " + userName);
 
@@ -25,49 +26,40 @@
         console.log("The user provided the incorrect repsonse.");
       } else {
         alert("Oops, " + userName + ", unrecognizable response. For the record, I am from South Dakota!");
-        console.log("This is the user provided an unrecognized response.");
+        console.log("The user provided an unrecognized response.");
       }
 
-      //Guessing-Game Question number 2:
+      //Guessing-Game Question number 2: Do I believe in ghosts?
 
-      var myHometown = prompt("Please guess yes or no: Am I from South Dakota?");
-      console.log("This is the myHometown variable: " + myHometown);
+      var myGhost = prompt("Do I believe in ghosts?");
+      console.log("This is the myGhost variable: " + myGhost);
 
-      if (myHometown === "yes") {
-        alert("Yup, " + userName + ", I am from South Dakota!");
+      if (myGhost === "yes") {
+        alert("Boo! You're correct, " + userName + ", I absolutelty believe in ghosts!");
         console.log("The user provided the correct response.");
-      } else if (myHometown === "no") {
-        alert(" Sorry, " + userName + ", wrong answer. I am from South Dakota!");
+      } else if (myGhost === "no") {
+        alert(" Sorry, " + userName + ", wrong answer. Of course I believe in ghosts! Don't you?");
         console.log("The user provided the incorrect repsonse.");
       } else {
-        alert("Oops, " + userName + ", unrecognizable response. For the record, I am from South Dakota!");
-        console.log("This is the user provided an unrecognized response.");
+        alert("Oops, " + userName + ", unrecognizable response. For the record, I do believe in ghosts!");
+        console.log("The user provided an unrecognized response.");
       }
 
-      //Guessing-Game Question number 3:
+      //Guessing-Game Question number 3: Do I moonlight as a jazz musician?
 
-      var myHometown = prompt("Please guess yes or no: Am I from South Dakota?");
-      console.log("This is the myHometown variable: " + myHometown);
+      var myMoonlight = prompt("Do you think I moonlight as a jazz musician?");
+      console.log("This is the myMoonlight variable: " + myMoonlight);
 
-      if (myHometown === "yes") {
-        alert("Yup, " + userName + ", I am from South Dakota!");
-        console.log("The user provided the correct response.");
+      if (myMoonlight === "yes") {
+        alert("Oh, " + userName + ", I am flattered you think I'm that cool! No, I do not moonlight as a jazz musician, but I wish I did.");
+        console.log("The user provided the incorrect response.");
       } else if (myHometown === "no") {
-        alert(" Sorry, " + userName + ", wrong answer. I am from South Dakota!");
-        console.log("The user provided the incorrect repsonse.");
+        alert(" You're right, " + userName + ", I do not moonlight as a jazz musician, but I wish I did!");
+        console.log("The user provided the correct repsonse.");
       } else {
-        alert("Oops, " + userName + ", unrecognizable response. For the record, I am from South Dakota!");
-        console.log("This is the user provided an unrecognized response.");
+        alert("Oops, " + userName + ", unrecognizable response. For the record, I do not moonlight as a jazz musician, but I wish I did.");
+        console.log("The user provided an unrecognized response.");
       }
-
-      // Class example template:
-      // if (userName === "Erin") {
-      //  console.log("Erin is correct");
-      // } else if (userName === "Molly") {
-      //  console.log("Molly is correct");
-      // } else {
-      //  console.log("Sorry, wrong name.");
-      // }
 
     </script>
   </body>
