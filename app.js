@@ -9,10 +9,10 @@ console.log("This is the userName variable: " + userName);
 var myHometown = prompt("Please guess yes or no: Am I from South Dakota?");
 console.log("This is the myHometown variable: " + myHometown);
 
-if (myHometown === "yes") {
+if (myHometown === "yes" || myHometown === "Yes" || myHometown === "Y" || myHometown === "y" || myHometown === "YES") {
   alert("Yup, " + userName + ", I am from South Dakota!");
   console.log("The user provided the correct response.");
-} else if (myHometown === "no") {
+} else if (myHometown === "no" || myHometown === "No" || myHometown === "N" || myHometown === "n" || myHometown === "NO") {
   alert("Sorry, " + userName + ", wrong answer. I am from South Dakota!");
   console.log("The user provided the incorrect repsonse.");
 } else {
@@ -25,10 +25,10 @@ if (myHometown === "yes") {
 var myGhost = prompt("Do I believe in ghosts?");
 console.log("This is the myGhost variable: " + myGhost);
 
-if (myGhost === "yes") {
+if (myGhost === "yes" || myGhost === "Yes" || myGhost === "Y" || myGhost === "y" || myGhost === "YES") {
   alert("Boo! You're correct, " + userName + ", I absolutelty believe in ghosts!");
   console.log("The user provided the correct response.");
-} else if (myGhost === "no") {
+} else if ((myGhost === "no" || myGhost === "No" || myGhost === "N" || myGhost === "n" || myGhost === "NO")) {
   alert("Sorry, " + userName + ", wrong answer. Of course I believe in ghosts! Don't you?");
   console.log("The user provided the incorrect repsonse.");
 } else {
@@ -41,10 +41,10 @@ if (myGhost === "yes") {
 var myMoonlight = prompt("Do you think I moonlight as a jazz musician?");
 console.log("This is the myMoonlight variable: " + myMoonlight);
 
-if (myMoonlight === "yes") {
+if (myMoonlight === "yes" || myMoonlight === "Yes" || myMoonlight === "Y" || myMoonlight === "y" || myMoonlight === "YES") {
   alert("Oh, " + userName + ", I am flattered you think I'm that cool! No, I do not moonlight as a jazz musician, but I wish I did.");
   console.log("The user provided the incorrect response.");
-} else if (myMoonlight === "no") {
+} else if (myMoonlight === "no" || myMoonlight === "No" || myMoonlight === "N" || myMoonlight === "y" || myMoonlight === "NO") {
   alert("You're right, " + userName + ", I do not moonlight as a jazz musician, but I wish I did!");
   console.log("The user provided the correct repsonse.");
 } else {
