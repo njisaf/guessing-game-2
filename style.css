@@ -1,0 +1,50 @@
+* {
+  background-image: url(https://samepageteam.files.wordpress.com/2014/11/intertellar-farm.jpg);
+}
+
+body {
+  position: fixed;
+  top: 5%;
+  left: 20%;
+  border: 0px;
+  background-blend-mode: lighten;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.opening {
+
+}
+
+h1 {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100px;
+  color: orange;
+}
+
+p {
+  text-align: left;
+  font-family: 'Noto Serif', serif;
+  font-size: 40px;
+  color: yellow;
+}
+
+section {
+  display: inline-flex;
+  width: 100%;
+}
+
+#linkleft {
+  padding-left: 2px;
+  text-align: left;
+  font-size: 20px;
+}
+
+#linkright {
+  width: 58%;
+  text-align: right;
+  font-size: 20px;
+}
